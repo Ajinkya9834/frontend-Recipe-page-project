@@ -1,0 +1,78 @@
+body{
+    height: 100%;
+}
+.full-body{
+    display: grid;
+    grid-template-columns:25% 50% 25%; 
+    grid-template-rows: 100px auto 100px;
+    gap:10px;
+    
+
+    background-color:  hsl(30, 54%, 90%);
+}
+
+.full-page{
+    grid-area: 2/2/3/3;
+    font-family: "Outfit", sans-serif;
+    font-weight: normal;
+    font-weight: 400;
+    padding: 30px;
+
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+p,li{
+    font-size: 16px;
+
+}
+h1{
+    font-family: "Young Serif", serif;
+}
+h2,h3{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+
+}
+h4 {
+    color: hsl(332, 51%, 32%);
+
+}
+.Preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+#Preparation-time-margin{
+    margin-left: 25px;
+}
+.Ingredients,.Instructions{
+    border-bottom: 1.6px solid hsl(30, 18%, 87%) ;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+td{
+    border-bottom: 1.6px solid hsl(30, 18%, 87%);
+    padding: 10px 0px 10px 30px;
+}
+
+
+/* mobile view*/
+
+@media (max-width: 376px){
+  
+    .full-page{
+        grid-area: 1/1/4/4;
+    }
+
+}
