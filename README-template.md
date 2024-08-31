@@ -32,7 +32,7 @@ This is a responsive recipe page built using HTML and CSS. It features a visuall
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Media query
 - CSS Grid
 
 
